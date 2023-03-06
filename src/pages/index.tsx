@@ -1,14 +1,11 @@
-import Head from 'next/head';
-
+import Meta from '@/layouts/Meta';
 import { AppConfig } from '@/utils/AppConfig';
 
 const HomePage = () => {
   return (
     <>
-      <Head>
-        <title>{AppConfig.title}</title>
-        <meta name="description" content={AppConfig.description} />
-      </Head>
+      <Meta title={AppConfig.title} description={AppConfig.description} />
+
       <p>Hello World</p>
     </>
   );
