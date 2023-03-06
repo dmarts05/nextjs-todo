@@ -1,3 +1,4 @@
+import Home from '@/components/Home/Home';
 import Meta from '@/layouts/Meta';
 import { AppConfig } from '@/utils/AppConfig';
 
@@ -5,8 +6,7 @@ const HomePage = () => {
   return (
     <>
       <Meta title={AppConfig.title} description={AppConfig.description} />
-
-      <p>Hello World</p>
+      <Home />
     </>
   );
 };

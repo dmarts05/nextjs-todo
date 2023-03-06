@@ -27,10 +27,6 @@ module.exports = {
           '100lvh',
         ],
       },
-      fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
-        varela: ['Varela Round', 'sans-serif'],
-      },
     },
     screens: {
       xs: '480px',
