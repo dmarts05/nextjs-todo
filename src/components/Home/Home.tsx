@@ -1,5 +1,7 @@
-const Home = () => {
-  return <div>Home</div>;
+import NavBar from './NavBar';
+
+const Home: React.FC = () => {
+  return <NavBar />;
 };
 
 export default Home;
