@@ -4,11 +4,11 @@ import { NextSeo } from 'next-seo';
 
 import { AppConfig } from '@/utils/AppConfig';
 
-type IMetaProps = {
+interface IMetaProps {
   title: string;
   description: string;
   canonical?: string;
-};
+}
 
 const Meta: React.FC<IMetaProps> = ({ title, description, canonical }) => {
   const router = useRouter();

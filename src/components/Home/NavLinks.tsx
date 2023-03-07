@@ -1,18 +1,15 @@
-import Link from 'next/link';
+import NavLink from './NavLink';
 
 const NavLinks = () => {
   return (
     <ul className="flex gap-6">
       <li>
-        <Link href="/login">Log in</Link>
+        <NavLink link="/login">Log in</NavLink>
       </li>
       <li>
-        <Link
-          href="/signup"
-          className="rounded-md bg-red-700 py-1 px-3 font-medium text-white"
-        >
+        <NavLink link="/signup" type="cta">
           Sign up
-        </Link>
+        </NavLink>
       </li>
     </ul>
   );
