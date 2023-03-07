@@ -6,7 +6,7 @@ import { AppConfig } from '@/utils/AppConfig';
 
 interface IMetaProps {
   title: string;
-  description: string;
+  description?: string;
   canonical?: string;
 }
 

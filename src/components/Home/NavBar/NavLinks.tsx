@@ -5,8 +5,8 @@ const links: {
   text: string;
   type?: string;
 }[] = [
-  { href: '/login', text: 'Log in' },
-  { href: '/signup', text: 'Sign up', type: 'cta' },
+  { href: '/auth/login', text: 'Log in' },
+  { href: '/auth/signup', text: 'Sign up', type: 'cta' },
 ];
 
 const NavLinks: React.FC = () => {

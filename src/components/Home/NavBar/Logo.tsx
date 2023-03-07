@@ -1,4 +1,7 @@
+import { Ubuntu } from 'next/font/google';
 import Image from 'next/image';
+
+const ubuntu = Ubuntu({ subsets: ['latin'], weight: ['500'] });
 
 const Logo: React.FC = () => {
   return (
@@ -8,8 +11,11 @@ const Logo: React.FC = () => {
         alt="NextDo Logo"
         width="48"
         height="48"
+        className="brightness-110"
       />
-      <h2 className="hidden text-xl font-semibold tracking-widest text-red-700 xs:block">
+      <h2
+        className={`${ubuntu.className} hidden text-xl font-semibold tracking-widest text-red-600 xs:block`}
+      >
         NextDo
       </h2>
     </div>

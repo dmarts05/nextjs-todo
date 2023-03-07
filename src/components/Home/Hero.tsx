@@ -14,8 +14,8 @@ const Hero: React.FC = () => {
           task manager and to-do list app.
         </h2>
         <Link
-          href="/signup"
-          className="rounded-lg bg-red-700 py-2 px-6 text-xl font-medium text-white duration-200 hover:bg-red-800 sm:text-2xl"
+          href="/auth/signup"
+          className="rounded-lg bg-red-600 py-2 px-6 text-xl font-medium text-white duration-200 hover:bg-red-700 sm:text-2xl"
         >
           Sign up
         </Link>

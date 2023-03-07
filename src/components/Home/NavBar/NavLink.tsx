@@ -11,7 +11,7 @@ const NavLink: React.FC<INavLinkProps> = ({ href, children, type }) => {
 
   switch (type) {
     case 'cta':
-      linkStyle += ' bg-red-700 font-medium text-white hover:bg-red-800';
+      linkStyle += ' bg-red-600 font-medium text-white hover:bg-red-700';
       break;
 
     default:
