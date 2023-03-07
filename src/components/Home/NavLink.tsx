@@ -1,18 +1,12 @@
 import Link from 'next/link';
 
 interface INavLinkProps {
-  link: string;
+  href: string;
   children: string;
   type?: string;
-  extraClasses?: string;
 }
 
-const NavLink: React.FC<INavLinkProps> = ({
-  link,
-  children,
-  type,
-  extraClasses,
-}) => {
+const NavLink: React.FC<INavLinkProps> = ({ href, children, type }) => {
   let linkStyle = 'rounded-md py-1.5 px-4 duration-200';
 
   switch (type) {
@@ -25,10 +19,8 @@ const NavLink: React.FC<INavLinkProps> = ({
       break;
   }
 
-  linkStyle += ` ${extraClasses}`;
-
   return (
-    <Link className={linkStyle} href={link}>
+    <Link className={linkStyle} href={href}>
       {children}
     </Link>
   );
