@@ -11,7 +11,7 @@ const links: {
 
 const NavLinks: React.FC = () => {
   return (
-    <ul className="hidden gap-3 xs:flex">
+    <ul className="flex gap-3">
       {links.map((link) => {
         return (
           <li key={link.href}>

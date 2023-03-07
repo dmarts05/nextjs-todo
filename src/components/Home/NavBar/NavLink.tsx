@@ -7,7 +7,7 @@ interface INavLinkProps {
 }
 
 const NavLink: React.FC<INavLinkProps> = ({ href, children, type }) => {
-  let linkStyle = 'rounded-md py-1.5 px-4 duration-200';
+  let linkStyle = 'rounded-lg py-1.5 px-4 duration-200';
 
   switch (type) {
     case 'cta':
