@@ -8,7 +8,7 @@ const Home: React.FC = () => {
     <div className="flex h-screen-small flex-col">
       <NavBar />
       <Hero />
-      <div className="relative h-[70vw] max-h-[500px]">
+      <div className="relative h-[70vw] max-h-[450px]">
         <Image
           src="/images/hero-illustration.png"
           alt="Hero Illustration"

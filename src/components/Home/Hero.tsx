@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Hero: React.FC = () => {
   return (
     <>
-      <header className="relative flex h-full flex-col items-center justify-center gap-6 overflow-hidden px-6 sm:px-[10vw]">
+      <header className="relative flex h-full flex-col items-center justify-center gap-6 overflow-hidden pt-6 sm:px-[10vw]">
         <h1 className="text-center text-4xl font-semibold xs:text-5xl sm:text-6xl">
           Organize your
           <br />
