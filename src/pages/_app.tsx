@@ -9,7 +9,7 @@ const poppins = Poppins({
 });
 
 const MyApp = ({ Component, pageProps }: AppProps) => (
-  <div className={poppins.className}>
+  <div className={`${poppins.className} select-none`}>
     <Component {...pageProps} />
   </div>
 );

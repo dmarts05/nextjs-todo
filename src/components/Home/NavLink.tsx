@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 interface INavLinkProps {
   link: string;
-  children?: string | JSX.Element | JSX.Element[];
+  children: string;
   type?: string;
   extraClasses?: string;
 }
@@ -21,7 +21,7 @@ const NavLink: React.FC<INavLinkProps> = ({
       break;
 
     default:
-      linkStyle += ' hover:bg-zinc-200';
+      linkStyle += ' text-zinc-700 hover:bg-zinc-200';
       break;
   }
 
