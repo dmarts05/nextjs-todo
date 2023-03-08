@@ -14,6 +14,7 @@ const Home: React.FC = () => {
           alt="Hero Illustration"
           fill
           className="object-contain"
+          priority
         />
       </div>
     </div>

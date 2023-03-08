@@ -1,6 +1,8 @@
+import type { NextPage } from 'next/types';
+
 import Meta from '@/layouts/Meta';
 
-const LoginPage: React.FC = () => {
+const LoginPage: NextPage = () => {
   return (
     <>
       <Meta title="Log in to NextDo" />
