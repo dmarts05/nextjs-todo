@@ -1,6 +1,6 @@
 import Meta from '@/layouts/Meta';
 
-const SignupPage = () => {
+const SignupPage: React.FC = () => {
   return (
     <>
       <Meta title="Sign up for a free NextDo account" />
