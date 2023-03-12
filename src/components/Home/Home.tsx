@@ -8,12 +8,13 @@ const Home: React.FC = () => {
     <div className="flex h-screen-small flex-col">
       <NavBar />
       <Hero />
-      <div className="relative h-[70vw] max-h-[450px]">
+      <div className="relative mx-auto max-h-[50vh] overflow-hidden">
         <Image
           src="/images/hero-illustration.png"
           alt="Hero Illustration"
-          fill
-          className="object-contain"
+          itemType="intrinsic"
+          width="1120"
+          height="610"
           priority
         />
       </div>
